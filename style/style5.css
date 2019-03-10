@@ -1,0 +1,238 @@
+@charset:"UTF-8";	
+
+body,h1,ul,figure{
+	margin: 0;
+	padding: 0;
+}
+ul,ol{
+	list-style: outside none none;
+}
+#header{
+	width: 100%;
+	min-width: 1263px;
+	height:70px;
+	background-color: #383737;
+	box-shadow: 0 2px 10px rgba(0,0,0,0.4);
+	position:relative; 
+	z-index: 9999;
+}
+#header .center{
+	width:1200px;
+	height:70px;
+	margin:0 auto;
+
+}
+
+.h1-logo{
+	width: 70px;
+	height: 70px;
+	background: url(../img/u=986117164,1382950814&fm=23&gp=0.jpg);
+	background-size: cover;
+	text-indent: -999px;
+	float: left ;
+}
+.link ul{
+	width: 650px;
+	height: 70px;
+	line-height: 70px;
+	list-style: outside none none;
+	float: right ;
+}
+.link li{
+	width:120px;
+	float:left;
+	text-align: center;
+}
+
+.link a{
+	text-decoration: none;
+	color: #FFFFFF;
+	display: block;
+}
+#header .link a:hover,#header .link a.active{
+	background-color: #000;
+}
+
+#search{
+	width: 100%;
+	min-width: 1263px;
+	height:600px;
+	background: black url(../img/search5.jpg) no-repeat;
+	position:relative; 
+}
+#search .center{
+	width: 600px;
+	height: 60px;
+	background: black;
+	position: absolute;
+	top:50%;
+	left:50%;
+	margin:-30px 0 0 -300px;
+	opacity: 0.6;
+	border-radius: 10px;
+	color:white;
+}
+.search{
+	background: #eee;
+	width:420px;
+	height: 50px;
+	position: absolute;
+	top:50%;
+	left:50%;
+	margin:-26px 0 0 -295px;
+	color: black;
+	border-radius: 10px;
+	border: 1px solid black;
+	font-size: 20px;
+	padding:0 10px;
+	outline: none;/*部分浏览器在点击时会出现焦点外边框*/
+}
+
+#search .button{
+	background: #eee;
+	width:120px;
+	height: 50px;
+	position: absolute;
+	top:50%;
+	left:50%;
+	margin:-26px 0 0 160px;
+	color: #666;
+	border-radius: 10px;
+	border: 1px solid black;
+	font-size: 20px;
+	font-weight: bold;
+	padding:0 10px;
+	outline: none;
+	cursor: pointer;/*鼠标悬停在上面时，是手指的符号。*/
+}
+
+#tour{
+	width: 1263px;
+	height:1050px;
+	margin:30px auto;
+	text-align: center;
+}
+
+#tour .center h2{
+	font-size: 45px;
+	letter-spacing: 2px;
+	color: #666;
+	margin: 10px 0;
+}
+#tour .center p{
+	color: #666;
+	margin: 10px 0;
+
+}
+#tour figure{
+	text-align: left;
+	border: 1px solid #999;
+	display: inline-block;
+	padding: 4px;
+	border-radius: 2px;
+	margin: 15px 12px;
+	width: 360px;
+	position: relative;
+
+}
+#tour figure img{
+	vertical-align: middle;
+	width:360px;
+	height: :150px;
+}
+#tour .info{
+	padding: 5px 0 0 0;
+}
+#tour figcaption{
+	text-align: left;
+	color: #777;
+	line-height: 1.5;
+	letter-spacing: 1px;
+	font-size: 14px;
+}
+#tour figure .title{
+	color: #333;
+	font-size: 14px;
+	position: relative;
+}
+
+#tour .sat{
+	float: right;
+	color: #999;
+	font-size: 13px;
+	font-style: normal;
+	position: relative;
+	right: 5px;
+	top:5px;
+}
+#tour .price{
+	font-size: 16px;
+	left: 5px;
+	position: relative;
+	right: 5px;
+	color:#FCA301;
+	font-weight: bold;	
+
+}
+
+#tour .type{
+	width: 90px;
+	height: 25px;
+	background: #19DD03;
+	color: white;
+	text-align: center;
+	line-height: 25px;
+	font-weight: bold;
+	font-size: 16px;
+	float:left;
+	position: absolute;
+	top:4px;
+	left: 4px;/*参考点定位*/
+}
+
+footer{
+	height:360px;
+	background:#222;
+
+}
+footer .top{
+	width: 100%;
+	height: 281px;
+	margin: 0 auto;
+}
+footer .block{
+	width:410px;
+	height: 280px;
+	display: inline-block;	
+	text-align:left;
+	color: #ccc;
+	vertical-align: top;
+}
+
+footer ul{
+	font-size: 18px;
+	color: #777;
+	text-indent: 20px;
+	line-height: 2;
+}
+footer h2{
+	font-size: 24px;
+	font-weight: normal;
+	padding: 20px 0 0 20px;
+
+}
+footer hr{
+	width: 90%;
+	border: 1px dashed #333;
+}
+
+footer .bottom{
+	width:100%;
+	color: #777;
+	text-align: center;
+	height: 80px;
+	margin: 0 auto;
+	background: #000;
+	line-height: 80px;
+	border-top:1px solid #444;
+}
